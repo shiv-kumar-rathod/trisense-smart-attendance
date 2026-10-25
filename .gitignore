@@ -1,0 +1,47 @@
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+.env
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+data/raw_faces/*
+!data/raw_faces/.gitkeep
+data/encodings/*
+!data/encodings/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+logs/
+*.log
+
+# Local databases and backups
+*.bak
+*.backup
+*.db-journal
+*.sqlite-journal
+data/backups/
+backup/
+backups/
+
+# Python and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and machine-specific files
+.env.*
+!.env.example
+
+# Local source backups — keep out of public repository
+app/ui/*_before_*.py
+
+# Manual tests that access the webcam or live attendance database
+test_live_attendance.py
+test_live_recognition.py
+cleanup_failed_test.py

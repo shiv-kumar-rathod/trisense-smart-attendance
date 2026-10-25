@@ -1,0 +1,9 @@
+﻿opencv-python
+insightface
+onnxruntime
+numpy
+pandas
+openpyxl
+reportlab
+Pillow
+pytest
