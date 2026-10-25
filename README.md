@@ -232,3 +232,14 @@ The application database is stored at:
 
 The application includes authentication, role-based dashboards, student account management, attendance processing, an attendance calendar, and condonation workflows. Final institutional handover should include verification of the live webcam workflow, role permissions, attendance calculations, database backup and restore, and the institution's deployment requirements.
 
+
+---
+
+## Application Screenshots
+
+### TRISENSE Login Screen
+
+The login interface features TRISENSE branding and a campus-inspired background.
+
+![TRISENSE Login Screen](assets/login_screen.png)
+
